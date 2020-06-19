@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    line-height: 1.7;
+}
+header{
+    background-color:  white;
+    height: 50px;
+    width: 100%;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: tomato;
+}   
+nav{
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: STHeiti;
+    color: white;
+}
+#nav1{
+    float: left;
+    margin-left: 30px;
+}
+#nav2{
+    float: right;
+    margin-right: 30px;
+}
+#background1{
+    background-image: url('../images/hero1.jpeg');
+    background-size:100% 100%; 
+    background-attachment: fixed;
+    height: 650px;
+    width: 2000px;
+}
+#welcome{
+    position: absolute;
+    text-align: center;
+    min-width: 300px;
+    left: 33%;
+    top: 35%;
+    padding: 65px;
+    background: rgba(255, 255, 255, 0.8);
+    outline: 4px double #FFFFFF;
+    outline-offset: 8px;
+    font-family: Roboto Slab;
+    font-size: 35px;
+}
+p{
+    width: 100px;
+    margin: auto;
+    font-size: 20px;
+}
+#message{
+    margin-top: 20px;
+    padding: 0 20px 0 60px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    margin-top: 25px;
+}
+.group{
+    position: relative;
+    margin-bottom: 65px;
+}
+input{
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #2b2b2b;
+    background: transparent;
+    color: #969696;
+    font-size: 13px;
+}
+label {
+    color: #2b2b2b;
+    font-size: 14px;
+    position: absolute;
+    left: 5px;
+    top: -20px;
+}
+textarea {
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #2b2b2b;
+    background: transparent;
+    color: #969696;
+    font-size: 13px;
+}
+input[type="submit"] {
+    border: 1px solid #2b2b2b !important;
+    color: #2b2b2b;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+footer{
+    text-align: center;
+    line-height: 40px;
+    border-top: #E8E8E8 1px solid;
+    width: 1000px;
+    margin: auto;
+    font-size: 12px;
+    font-family: STHeiti;
+    margin-top: 10px;
+}

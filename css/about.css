@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    line-height: 1.7;
+}
+header{
+    background-color:  white;
+    height: 50px;
+    width: 100%;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: tomato;
+}   
+nav{
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: STHeiti;
+    color: white;
+}
+#nav1{
+    float: left;
+    margin-left: 30px;
+}
+#nav2{
+    float: right;
+    margin-right: 30px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+#left{
+    float: left;
+    margin-top: 50px;
+}
+#left img{
+    -webkit-filter: grayscale(100%);
+}
+#right{
+    float: right;
+    font: 12px "宋体";
+    margin-right: 300px;
+    margin-top: 220px;
+    font-size: 15px;
+}
+#right span{
+    color: #19A566;
+}
+footer{
+    text-align: center;
+    line-height: 40px;
+    border-top: #E8E8E8 1px solid;
+    width: 1000px;
+    margin: auto;
+    font-size: 12px;
+    font-family: STHeiti;
+    margin-top: 20px;
+    clear: both;
+}
